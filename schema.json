@@ -1,0 +1,91 @@
+{
+  "dataset_id": "erm2-nwe9",
+  "name": "311 Service Requests from 2020 to Present",
+  "rows_updated_at": 1790818716,
+  "columns": [
+    {
+      "fieldName": "unique_key",
+      "name": "Unique Key",
+      "dataTypeName": "text",
+      "description": "Unique identifier of a Service Request (SR) in the open data set\n"
+    },
+    {
+      "fieldName": "created_date",
+      "name": "Created Date",
+      "dataTypeName": "calendar_date",
+      "description": "Date SR  was created\n"
+    },
+    {
+      "fieldName": "closed_date",
+      "name": "Closed Date",
+      "dataTypeName": "calendar_date",
+      "description": "Date SR was closed by responding agency\n"
+    },
+    {
+      "fieldName": "agency",
+      "name": "Agency",
+      "dataTypeName": "text",
+      "description": "Acronym of responding City Government Agency\n"
+    },
+    {
+      "fieldName": "agency_name",
+      "name": "Agency Name",
+      "dataTypeName": "text",
+      "description": "Full Agency name of responding City Government Agency"
+    },
+    {
+      "fieldName": "complaint_type",
+      "name": "Problem (formerly Complaint Type)",
+      "dataTypeName": "text",
+      "description": "This is the first level of a hierarchy identifying the topic of the incident or condition.  Problem (formerly Complaint Type) broadly describes the topic of the incident or condition and are defined by the responding agencies. New Problems may be added in response to changes in customer demand."
+    },
+    {
+      "fieldName": "descriptor",
+      "name": "Problem Detail (formerly Descriptor)",
+      "dataTypeName": "text",
+      "description": "This is associated to the Problem (formerly Complaint Type), and provides further detail on the incident or condition. Problem Detail (formerly Descriptor) values are dependent on the Problem, and are not always required in the service request."
+    },
+    {
+      "fieldName": "location_type",
+      "name": "Location Type",
+      "dataTypeName": "text",
+      "description": "Describes the type of location used in the address information \n"
+    },
+    {
+      "fieldName": "incident_zip",
+      "name": "Incident Zip",
+      "dataTypeName": "text",
+      "description": "Incident location zip code, provided by geo validation.\n"
+    },
+    {
+      "fieldName": "status",
+      "name": "Status",
+      "dataTypeName": "text",
+      "description": "Status of SR submitted \n"
+    },
+    {
+      "fieldName": "due_date",
+      "name": "Due Date",
+      "dataTypeName": "calendar_date",
+      "description": "Date when responding agency is expected to update the SR.  This is based on the Complaint Type and internal Service Level Agreements (SLAs).\n"
+    },
+    {
+      "fieldName": "resolution_action_updated_date",
+      "name": "Resolution Action Updated Date",
+      "dataTypeName": "calendar_date",
+      "description": "Date when responding agency last updated the SR.\n"
+    },
+    {
+      "fieldName": "borough",
+      "name": "Borough",
+      "dataTypeName": "text",
+      "description": "Provided by the submitter and confirmed by geovalidation.\n"
+    },
+    {
+      "fieldName": "open_data_channel_type",
+      "name": "Open Data Channel Type",
+      "dataTypeName": "text",
+      "description": "Indicates how the SR was submitted to 311.  i.e. By Phone, Online, Mobile, Other or Unknown."
+    }
+  ]
+}

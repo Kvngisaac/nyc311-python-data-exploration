@@ -1,0 +1,21 @@
+unique_key,agency_clean,problem_clean,borough_clean,status_clean,created_day,created_hour,closure_seconds,timing_eligible,upper_iqr_outlier,zip_valid
+59886871,NYPD,Illegal Parking,Bronx,CLOSED,2024-01-01,0,3359.0,True,False,True
+59886906,NYPD,Illegal Parking,Queens,CLOSED,2024-01-01,0,1669.0,True,False,True
+59886911,NYPD,Illegal Parking,Brooklyn,CLOSED,2024-01-01,0,985.0,True,False,True
+59887007,NYPD,Blocked Driveway,Queens,CLOSED,2024-01-01,0,1120.0,True,False,True
+59887011,NYPD,Blocked Driveway,Brooklyn,CLOSED,2024-01-01,0,2168.0,True,False,True
+59887014,NYPD,Blocked Driveway,Brooklyn,CLOSED,2024-01-01,0,1747.0,True,False,True
+59887036,NYPD,Illegal Fireworks,Brooklyn,CLOSED,2024-01-01,0,2086.0,True,False,True
+59887037,NYPD,Illegal Fireworks,Queens,CLOSED,2024-01-01,0,1351.0,True,False,True
+59887040,NYPD,Illegal Fireworks,Brooklyn,CLOSED,2024-01-01,0,643.0,True,False,True
+59887041,NYPD,Illegal Fireworks,Staten Island,CLOSED,2024-01-01,0,1083.0,True,False,True
+59887042,NYPD,Illegal Fireworks,Staten Island,CLOSED,2024-01-01,0,819.0,True,False,True
+59887043,NYPD,Illegal Fireworks,Brooklyn,CLOSED,2024-01-01,0,2441.0,True,False,True
+59887047,NYPD,Illegal Fireworks,Brooklyn,CLOSED,2024-01-01,0,2170.0,True,False,True
+59887049,NYPD,Illegal Fireworks,Bronx,CLOSED,2024-01-01,0,2207.0,True,False,True
+59887051,NYPD,Illegal Fireworks,Queens,CLOSED,2024-01-01,0,2776.0,True,False,True
+59887052,NYPD,Illegal Fireworks,Staten Island,CLOSED,2024-01-01,0,3038.0,True,False,True
+59887053,NYPD,Illegal Fireworks,Brooklyn,CLOSED,2024-01-01,0,1598.0,True,False,True
+59887054,NYPD,Noise - Commercial,Brooklyn,CLOSED,2024-01-01,0,4986.0,True,False,True
+59887065,NYPD,Noise - Commercial,Manhattan,CLOSED,2024-01-01,0,118.0,True,False,True
+59887066,NYPD,Noise - Commercial,Manhattan,CLOSED,2024-01-01,0,2774.0,True,False,True

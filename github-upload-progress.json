@@ -1,0 +1,64 @@
+{
+  "checked_at_user_local": "2026-10-01 after 17:03 America/Chicago",
+  "checks": [
+    {
+      "label": "project_branch",
+      "isError": false,
+      "sha": "f5502422a262f94fc1daee71e8071bc74ca72a5a"
+    },
+    {
+      "label": "retail_branch",
+      "isError": false,
+      "sha": "27b9b3e52e3bf23bea75c5d3cd5d342f15df1126"
+    },
+    {
+      "label": "raw_snapshot_blob",
+      "isError": true,
+      "error": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/git/blobs#get-a-blob\",\"status\":\"404\"}"
+    },
+    {
+      "label": "closure_png_blob",
+      "isError": true,
+      "error": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/git/blobs#get-a-blob\",\"status\":\"404\"}"
+    },
+    {
+      "label": "daily_png_blob",
+      "isError": true,
+      "error": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/git/blobs#get-a-blob\",\"status\":\"404\"}"
+    },
+    {
+      "label": "missingness_png_blob",
+      "isError": true,
+      "error": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/git/blobs#get-a-blob\",\"status\":\"404\"}"
+    },
+    {
+      "label": "problem_png_blob",
+      "isError": true,
+      "error": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/git/blobs#get-a-blob\",\"status\":\"404\"}"
+    },
+    {
+      "label": "borough_png_blob",
+      "isError": true,
+      "error": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/git/blobs#get-a-blob\",\"status\":\"404\"}"
+    }
+  ],
+  "committed_project_files": 0,
+  "total_project_files": 69,
+  "confirmed_binary_blob_uploads": 0,
+  "total_unique_binary_blobs": 6,
+  "repository_tree": {
+    "sha": "39630482d2159461bf6d666ff88bf34f6700e6b0",
+    "url": "https://api.github.com/repos/Kvngisaac/nyc311-python-data-exploration/git/trees/39630482d2159461bf6d666ff88bf34f6700e6b0",
+    "tree": [
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1da4e94e259ea320c637856aa5a3998ce436a8ab",
+        "size": 251,
+        "url": "https://api.github.com/repos/Kvngisaac/nyc311-python-data-exploration/git/blobs/1da4e94e259ea320c637856aa5a3998ce436a8ab"
+      }
+    ],
+    "truncated": false
+  }
+}

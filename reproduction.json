@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "python": "3.12.14",
+  "platform": "Linux",
+  "steps": [
+    {
+      "command": "python analysis.py",
+      "status": "passed"
+    },
+    {
+      "command": "python validate.py",
+      "status": "passed"
+    },
+    {
+      "command": "python -m unittest discover -s tests -v",
+      "status": "passed"
+    },
+    {
+      "command": "python visualize.py",
+      "status": "passed"
+    },
+    {
+      "command": "python notebook.py",
+      "status": "passed"
+    },
+    {
+      "command": "python build_site.py",
+      "status": "passed"
+    },
+    {
+      "command": "node tests/explorer.test.cjs",
+      "status": "passed"
+    }
+  ],
+  "source_mode": "offline pinned ZIP; no API request",
+  "browser_execution": false,
+  "jupyter_kernel_execution": false
+}

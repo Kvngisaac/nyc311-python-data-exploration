@@ -1,0 +1,1032 @@
+{
+  "cohort_count": {
+    "query_url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=count%28%2A%29+as+requests&%24where=created_date+%3E%3D+%272024-01-01T00%3A00%3A00%27+AND+created_date+%3C+%272024-02-01T00%3A00%3A00%27",
+    "records": [
+      {
+        "requests": "287186"
+      }
+    ]
+  },
+  "agency_borough_status": {
+    "query_url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=agency%2Cborough%2Cstatus%2Ccount%28%2A%29+as+requests&%24where=created_date+%3E%3D+%272024-01-01T00%3A00%3A00%27+AND+created_date+%3C+%272024-02-01T00%3A00%3A00%27&%24group=agency%2Cborough%2Cstatus&%24order=agency%2Cborough%2Cstatus&%24limit=10000",
+    "records": [
+      {
+        "agency": "DCWP",
+        "borough": "BRONX",
+        "status": "Closed",
+        "requests": "196"
+      },
+      {
+        "agency": "DCWP",
+        "borough": "BRONX",
+        "status": "In Progress",
+        "requests": "21"
+      },
+      {
+        "agency": "DCWP",
+        "borough": "BROOKLYN",
+        "status": "Closed",
+        "requests": "330"
+      },
+      {
+        "agency": "DCWP",
+        "borough": "BROOKLYN",
+        "status": "In Progress",
+        "requests": "42"
+      },
+      {
+        "agency": "DCWP",
+        "borough": "MANHATTAN",
+        "status": "Closed",
+        "requests": "282"
+      },
+      {
+        "agency": "DCWP",
+        "borough": "MANHATTAN",
+        "status": "In Progress",
+        "requests": "33"
+      },
+      {
+        "agency": "DCWP",
+        "borough": "QUEENS",
+        "status": "Closed",
+        "requests": "305"
+      },
+      {
+        "agency": "DCWP",
+        "borough": "QUEENS",
+        "status": "In Progress",
+        "requests": "33"
+      },
+      {
+        "agency": "DCWP",
+        "borough": "STATEN ISLAND",
+        "status": "Closed",
+        "requests": "27"
+      },
+      {
+        "agency": "DCWP",
+        "borough": "STATEN ISLAND",
+        "status": "In Progress",
+        "requests": "5"
+      },
+      {
+        "agency": "DCWP",
+        "borough": "Unspecified",
+        "status": "Closed",
+        "requests": "12"
+      },
+      {
+        "agency": "DEP",
+        "borough": "BRONX",
+        "status": "Assigned",
+        "requests": "2"
+      },
+      {
+        "agency": "DEP",
+        "borough": "BRONX",
+        "status": "Closed",
+        "requests": "1283"
+      },
+      {
+        "agency": "DEP",
+        "borough": "BRONX",
+        "status": "Open",
+        "requests": "12"
+      },
+      {
+        "agency": "DEP",
+        "borough": "BRONX",
+        "status": "Started",
+        "requests": "29"
+      },
+      {
+        "agency": "DEP",
+        "borough": "BROOKLYN",
+        "status": "Assigned",
+        "requests": "5"
+      },
+      {
+        "agency": "DEP",
+        "borough": "BROOKLYN",
+        "status": "Closed",
+        "requests": "4362"
+      },
+      {
+        "agency": "DEP",
+        "borough": "BROOKLYN",
+        "status": "Open",
+        "requests": "19"
+      },
+      {
+        "agency": "DEP",
+        "borough": "BROOKLYN",
+        "status": "Started",
+        "requests": "16"
+      },
+      {
+        "agency": "DEP",
+        "borough": "MANHATTAN",
+        "status": "Assigned",
+        "requests": "18"
+      },
+      {
+        "agency": "DEP",
+        "borough": "MANHATTAN",
+        "status": "Closed",
+        "requests": "3150"
+      },
+      {
+        "agency": "DEP",
+        "borough": "MANHATTAN",
+        "status": "Open",
+        "requests": "5"
+      },
+      {
+        "agency": "DEP",
+        "borough": "MANHATTAN",
+        "status": "Started",
+        "requests": "10"
+      },
+      {
+        "agency": "DEP",
+        "borough": "QUEENS",
+        "status": "Assigned",
+        "requests": "1"
+      },
+      {
+        "agency": "DEP",
+        "borough": "QUEENS",
+        "status": "Closed",
+        "requests": "3500"
+      },
+      {
+        "agency": "DEP",
+        "borough": "QUEENS",
+        "status": "Open",
+        "requests": "10"
+      },
+      {
+        "agency": "DEP",
+        "borough": "QUEENS",
+        "status": "Started",
+        "requests": "7"
+      },
+      {
+        "agency": "DEP",
+        "borough": "STATEN ISLAND",
+        "status": "Closed",
+        "requests": "902"
+      },
+      {
+        "agency": "DEP",
+        "borough": "STATEN ISLAND",
+        "status": "Open",
+        "requests": "6"
+      },
+      {
+        "agency": "DEP",
+        "borough": "Unspecified",
+        "status": "Closed",
+        "requests": "1"
+      },
+      {
+        "agency": "DHS",
+        "borough": "BRONX",
+        "status": "Closed",
+        "requests": "72"
+      },
+      {
+        "agency": "DHS",
+        "borough": "BROOKLYN",
+        "status": "Closed",
+        "requests": "398"
+      },
+      {
+        "agency": "DHS",
+        "borough": "MANHATTAN",
+        "status": "Closed",
+        "requests": "1548"
+      },
+      {
+        "agency": "DHS",
+        "borough": "QUEENS",
+        "status": "Closed",
+        "requests": "321"
+      },
+      {
+        "agency": "DHS",
+        "borough": "STATEN ISLAND",
+        "status": "Closed",
+        "requests": "24"
+      },
+      {
+        "agency": "DOB",
+        "borough": "BRONX",
+        "status": "Assigned",
+        "requests": "3"
+      },
+      {
+        "agency": "DOB",
+        "borough": "BRONX",
+        "status": "Closed",
+        "requests": "1646"
+      },
+      {
+        "agency": "DOB",
+        "borough": "BRONX",
+        "status": "Open",
+        "requests": "2"
+      },
+      {
+        "agency": "DOB",
+        "borough": "BROOKLYN",
+        "status": "Assigned",
+        "requests": "11"
+      },
+      {
+        "agency": "DOB",
+        "borough": "BROOKLYN",
+        "status": "Closed",
+        "requests": "3255"
+      },
+      {
+        "agency": "DOB",
+        "borough": "BROOKLYN",
+        "status": "Open",
+        "requests": "10"
+      },
+      {
+        "agency": "DOB",
+        "borough": "MANHATTAN",
+        "status": "Assigned",
+        "requests": "6"
+      },
+      {
+        "agency": "DOB",
+        "borough": "MANHATTAN",
+        "status": "Closed",
+        "requests": "1513"
+      },
+      {
+        "agency": "DOB",
+        "borough": "QUEENS",
+        "status": "Assigned",
+        "requests": "13"
+      },
+      {
+        "agency": "DOB",
+        "borough": "QUEENS",
+        "status": "Closed",
+        "requests": "1834"
+      },
+      {
+        "agency": "DOB",
+        "borough": "QUEENS",
+        "status": "Open",
+        "requests": "37"
+      },
+      {
+        "agency": "DOB",
+        "borough": "STATEN ISLAND",
+        "status": "Assigned",
+        "requests": "7"
+      },
+      {
+        "agency": "DOB",
+        "borough": "STATEN ISLAND",
+        "status": "Closed",
+        "requests": "272"
+      },
+      {
+        "agency": "DOB",
+        "borough": "STATEN ISLAND",
+        "status": "Open",
+        "requests": "4"
+      },
+      {
+        "agency": "DOB",
+        "borough": "Unspecified",
+        "status": "Closed",
+        "requests": "4"
+      },
+      {
+        "agency": "DOE",
+        "borough": "BRONX",
+        "status": "Closed",
+        "requests": "31"
+      },
+      {
+        "agency": "DOE",
+        "borough": "BROOKLYN",
+        "status": "Closed",
+        "requests": "52"
+      },
+      {
+        "agency": "DOE",
+        "borough": "MANHATTAN",
+        "status": "Closed",
+        "requests": "34"
+      },
+      {
+        "agency": "DOE",
+        "borough": "QUEENS",
+        "status": "Closed",
+        "requests": "72"
+      },
+      {
+        "agency": "DOE",
+        "borough": "STATEN ISLAND",
+        "status": "Closed",
+        "requests": "8"
+      },
+      {
+        "agency": "DOHMH",
+        "borough": "BRONX",
+        "status": "Closed",
+        "requests": "936"
+      },
+      {
+        "agency": "DOHMH",
+        "borough": "BRONX",
+        "status": "In Progress",
+        "requests": "51"
+      },
+      {
+        "agency": "DOHMH",
+        "borough": "BROOKLYN",
+        "status": "Assigned",
+        "requests": "1"
+      },
+      {
+        "agency": "DOHMH",
+        "borough": "BROOKLYN",
+        "status": "Closed",
+        "requests": "2058"
+      },
+      {
+        "agency": "DOHMH",
+        "borough": "BROOKLYN",
+        "status": "In Progress",
+        "requests": "80"
+      },
+      {
+        "agency": "DOHMH",
+        "borough": "MANHATTAN",
+        "status": "Closed",
+        "requests": "1898"
+      },
+      {
+        "agency": "DOHMH",
+        "borough": "MANHATTAN",
+        "status": "In Progress",
+        "requests": "98"
+      },
+      {
+        "agency": "DOHMH",
+        "borough": "QUEENS",
+        "status": "Closed",
+        "requests": "1117"
+      },
+      {
+        "agency": "DOHMH",
+        "borough": "QUEENS",
+        "status": "In Progress",
+        "requests": "62"
+      },
+      {
+        "agency": "DOHMH",
+        "borough": "STATEN ISLAND",
+        "status": "Closed",
+        "requests": "151"
+      },
+      {
+        "agency": "DOHMH",
+        "borough": "STATEN ISLAND",
+        "status": "In Progress",
+        "requests": "7"
+      },
+      {
+        "agency": "DOHMH",
+        "borough": "Unspecified",
+        "status": "Closed",
+        "requests": "11"
+      },
+      {
+        "agency": "DOHMH",
+        "borough": "Unspecified",
+        "status": "In Progress",
+        "requests": "2"
+      },
+      {
+        "agency": "DOT",
+        "borough": "BRONX",
+        "status": "Assigned",
+        "requests": "23"
+      },
+      {
+        "agency": "DOT",
+        "borough": "BRONX",
+        "status": "Closed",
+        "requests": "2110"
+      },
+      {
+        "agency": "DOT",
+        "borough": "BRONX",
+        "status": "Pending",
+        "requests": "50"
+      },
+      {
+        "agency": "DOT",
+        "borough": "BROOKLYN",
+        "status": "Assigned",
+        "requests": "33"
+      },
+      {
+        "agency": "DOT",
+        "borough": "BROOKLYN",
+        "status": "Closed",
+        "requests": "5194"
+      },
+      {
+        "agency": "DOT",
+        "borough": "BROOKLYN",
+        "status": "Pending",
+        "requests": "12"
+      },
+      {
+        "agency": "DOT",
+        "borough": "MANHATTAN",
+        "status": "Assigned",
+        "requests": "18"
+      },
+      {
+        "agency": "DOT",
+        "borough": "MANHATTAN",
+        "status": "Closed",
+        "requests": "2933"
+      },
+      {
+        "agency": "DOT",
+        "borough": "MANHATTAN",
+        "status": "Pending",
+        "requests": "37"
+      },
+      {
+        "agency": "DOT",
+        "borough": "QUEENS",
+        "status": "Assigned",
+        "requests": "20"
+      },
+      {
+        "agency": "DOT",
+        "borough": "QUEENS",
+        "status": "Closed",
+        "requests": "5398"
+      },
+      {
+        "agency": "DOT",
+        "borough": "QUEENS",
+        "status": "Pending",
+        "requests": "74"
+      },
+      {
+        "agency": "DOT",
+        "borough": "STATEN ISLAND",
+        "status": "Closed",
+        "requests": "1396"
+      },
+      {
+        "agency": "DOT",
+        "borough": "STATEN ISLAND",
+        "status": "Pending",
+        "requests": "11"
+      },
+      {
+        "agency": "DOT",
+        "borough": "Unspecified",
+        "status": "Closed",
+        "requests": "99"
+      },
+      {
+        "agency": "DPR",
+        "borough": "BRONX",
+        "status": "Closed",
+        "requests": "572"
+      },
+      {
+        "agency": "DPR",
+        "borough": "BRONX",
+        "status": "In Progress",
+        "requests": "11"
+      },
+      {
+        "agency": "DPR",
+        "borough": "BROOKLYN",
+        "status": "Closed",
+        "requests": "1770"
+      },
+      {
+        "agency": "DPR",
+        "borough": "BROOKLYN",
+        "status": "In Progress",
+        "requests": "209"
+      },
+      {
+        "agency": "DPR",
+        "borough": "MANHATTAN",
+        "status": "Closed",
+        "requests": "845"
+      },
+      {
+        "agency": "DPR",
+        "borough": "MANHATTAN",
+        "status": "In Progress",
+        "requests": "7"
+      },
+      {
+        "agency": "DPR",
+        "borough": "QUEENS",
+        "status": "Closed",
+        "requests": "1802"
+      },
+      {
+        "agency": "DPR",
+        "borough": "QUEENS",
+        "status": "In Progress",
+        "requests": "258"
+      },
+      {
+        "agency": "DPR",
+        "borough": "STATEN ISLAND",
+        "status": "Closed",
+        "requests": "637"
+      },
+      {
+        "agency": "DPR",
+        "borough": "STATEN ISLAND",
+        "status": "In Progress",
+        "requests": "36"
+      },
+      {
+        "agency": "DPR",
+        "borough": "STATEN ISLAND",
+        "status": "Unspecified",
+        "requests": "1"
+      },
+      {
+        "agency": "DSNY",
+        "borough": "BRONX",
+        "status": "Closed",
+        "requests": "3111"
+      },
+      {
+        "agency": "DSNY",
+        "borough": "BRONX",
+        "status": "In Progress",
+        "requests": "6"
+      },
+      {
+        "agency": "DSNY",
+        "borough": "BROOKLYN",
+        "status": "Closed",
+        "requests": "8490"
+      },
+      {
+        "agency": "DSNY",
+        "borough": "BROOKLYN",
+        "status": "In Progress",
+        "requests": "35"
+      },
+      {
+        "agency": "DSNY",
+        "borough": "MANHATTAN",
+        "status": "Closed",
+        "requests": "3927"
+      },
+      {
+        "agency": "DSNY",
+        "borough": "MANHATTAN",
+        "status": "In Progress",
+        "requests": "4"
+      },
+      {
+        "agency": "DSNY",
+        "borough": "QUEENS",
+        "status": "Closed",
+        "requests": "6221"
+      },
+      {
+        "agency": "DSNY",
+        "borough": "QUEENS",
+        "status": "In Progress",
+        "requests": "10"
+      },
+      {
+        "agency": "DSNY",
+        "borough": "QUEENS",
+        "status": "Open",
+        "requests": "2"
+      },
+      {
+        "agency": "DSNY",
+        "borough": "STATEN ISLAND",
+        "status": "Closed",
+        "requests": "1589"
+      },
+      {
+        "agency": "DSNY",
+        "borough": "STATEN ISLAND",
+        "status": "In Progress",
+        "requests": "13"
+      },
+      {
+        "agency": "DSNY",
+        "borough": "Unspecified",
+        "status": "Closed",
+        "requests": "11"
+      },
+      {
+        "agency": "EDC",
+        "borough": "BRONX",
+        "status": "Closed",
+        "requests": "22"
+      },
+      {
+        "agency": "EDC",
+        "borough": "BROOKLYN",
+        "status": "Closed",
+        "requests": "87"
+      },
+      {
+        "agency": "EDC",
+        "borough": "BROOKLYN",
+        "status": "In Progress",
+        "requests": "5"
+      },
+      {
+        "agency": "EDC",
+        "borough": "MANHATTAN",
+        "status": "Closed",
+        "requests": "1173"
+      },
+      {
+        "agency": "EDC",
+        "borough": "MANHATTAN",
+        "status": "In Progress",
+        "requests": "8"
+      },
+      {
+        "agency": "EDC",
+        "borough": "QUEENS",
+        "status": "Closed",
+        "requests": "649"
+      },
+      {
+        "agency": "EDC",
+        "borough": "STATEN ISLAND",
+        "status": "Closed",
+        "requests": "1"
+      },
+      {
+        "agency": "HPD",
+        "borough": "BRONX",
+        "status": "Closed",
+        "requests": "34678"
+      },
+      {
+        "agency": "HPD",
+        "borough": "BRONX",
+        "status": "Open",
+        "requests": "13"
+      },
+      {
+        "agency": "HPD",
+        "borough": "BROOKLYN",
+        "status": "Closed",
+        "requests": "28189"
+      },
+      {
+        "agency": "HPD",
+        "borough": "BROOKLYN",
+        "status": "Open",
+        "requests": "35"
+      },
+      {
+        "agency": "HPD",
+        "borough": "MANHATTAN",
+        "status": "Closed",
+        "requests": "20373"
+      },
+      {
+        "agency": "HPD",
+        "borough": "MANHATTAN",
+        "status": "Open",
+        "requests": "30"
+      },
+      {
+        "agency": "HPD",
+        "borough": "QUEENS",
+        "status": "Closed",
+        "requests": "14088"
+      },
+      {
+        "agency": "HPD",
+        "borough": "QUEENS",
+        "status": "Open",
+        "requests": "33"
+      },
+      {
+        "agency": "HPD",
+        "borough": "STATEN ISLAND",
+        "status": "Closed",
+        "requests": "1563"
+      },
+      {
+        "agency": "HPD",
+        "borough": "STATEN ISLAND",
+        "status": "Open",
+        "requests": "1"
+      },
+      {
+        "agency": "NYPD",
+        "borough": "BRONX",
+        "status": "Closed",
+        "requests": "16496"
+      },
+      {
+        "agency": "NYPD",
+        "borough": "BRONX",
+        "status": "Unspecified",
+        "requests": "1"
+      },
+      {
+        "agency": "NYPD",
+        "borough": "BROOKLYN",
+        "status": "Closed",
+        "requests": "35985"
+      },
+      {
+        "agency": "NYPD",
+        "borough": "BROOKLYN",
+        "status": "Unspecified",
+        "requests": "4"
+      },
+      {
+        "agency": "NYPD",
+        "borough": "MANHATTAN",
+        "status": "Closed",
+        "requests": "19526"
+      },
+      {
+        "agency": "NYPD",
+        "borough": "QUEENS",
+        "status": "Closed",
+        "requests": "29137"
+      },
+      {
+        "agency": "NYPD",
+        "borough": "QUEENS",
+        "status": "Unspecified",
+        "requests": "1"
+      },
+      {
+        "agency": "NYPD",
+        "borough": "STATEN ISLAND",
+        "status": "Closed",
+        "requests": "2799"
+      },
+      {
+        "agency": "NYPD",
+        "borough": "Unspecified",
+        "status": "Closed",
+        "requests": "3"
+      },
+      {
+        "agency": "OTI",
+        "borough": "BRONX",
+        "status": "Closed",
+        "requests": "3"
+      },
+      {
+        "agency": "OTI",
+        "borough": "BROOKLYN",
+        "status": "Closed",
+        "requests": "1"
+      },
+      {
+        "agency": "OTI",
+        "borough": "MANHATTAN",
+        "status": "Closed",
+        "requests": "8"
+      },
+      {
+        "agency": "OTI",
+        "borough": "QUEENS",
+        "status": "Closed",
+        "requests": "1"
+      },
+      {
+        "agency": "TLC",
+        "borough": "BRONX",
+        "status": "Closed",
+        "requests": "70"
+      },
+      {
+        "agency": "TLC",
+        "borough": "BRONX",
+        "status": "In Progress",
+        "requests": "5"
+      },
+      {
+        "agency": "TLC",
+        "borough": "BROOKLYN",
+        "status": "Closed",
+        "requests": "390"
+      },
+      {
+        "agency": "TLC",
+        "borough": "BROOKLYN",
+        "status": "In Progress",
+        "requests": "18"
+      },
+      {
+        "agency": "TLC",
+        "borough": "MANHATTAN",
+        "status": "Closed",
+        "requests": "1840"
+      },
+      {
+        "agency": "TLC",
+        "borough": "MANHATTAN",
+        "status": "In Progress",
+        "requests": "134"
+      },
+      {
+        "agency": "TLC",
+        "borough": "QUEENS",
+        "status": "Closed",
+        "requests": "452"
+      },
+      {
+        "agency": "TLC",
+        "borough": "QUEENS",
+        "status": "In Progress",
+        "requests": "58"
+      },
+      {
+        "agency": "TLC",
+        "borough": "STATEN ISLAND",
+        "status": "Closed",
+        "requests": "6"
+      },
+      {
+        "agency": "TLC",
+        "borough": "STATEN ISLAND",
+        "status": "In Progress",
+        "requests": "2"
+      },
+      {
+        "agency": "TLC",
+        "borough": "Unspecified",
+        "status": "Closed",
+        "requests": "47"
+      },
+      {
+        "agency": "TLC",
+        "borough": "Unspecified",
+        "status": "In Progress",
+        "requests": "3"
+      }
+    ]
+  },
+  "daily": {
+    "query_url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=date_trunc_ymd%28created_date%29+as+day%2Ccount%28%2A%29+as+requests&%24where=created_date+%3E%3D+%272024-01-01T00%3A00%3A00%27+AND+created_date+%3C+%272024-02-01T00%3A00%3A00%27&%24group=day&%24order=day&%24limit=1000",
+    "records": [
+      {
+        "day": "2024-01-01T00:00:00.000",
+        "requests": "7269"
+      },
+      {
+        "day": "2024-01-02T00:00:00.000",
+        "requests": "9517"
+      },
+      {
+        "day": "2024-01-03T00:00:00.000",
+        "requests": "9534"
+      },
+      {
+        "day": "2024-01-04T00:00:00.000",
+        "requests": "9800"
+      },
+      {
+        "day": "2024-01-05T00:00:00.000",
+        "requests": "9876"
+      },
+      {
+        "day": "2024-01-06T00:00:00.000",
+        "requests": "7795"
+      },
+      {
+        "day": "2024-01-07T00:00:00.000",
+        "requests": "6705"
+      },
+      {
+        "day": "2024-01-08T00:00:00.000",
+        "requests": "9762"
+      },
+      {
+        "day": "2024-01-09T00:00:00.000",
+        "requests": "9680"
+      },
+      {
+        "day": "2024-01-10T00:00:00.000",
+        "requests": "11028"
+      },
+      {
+        "day": "2024-01-11T00:00:00.000",
+        "requests": "9664"
+      },
+      {
+        "day": "2024-01-12T00:00:00.000",
+        "requests": "8900"
+      },
+      {
+        "day": "2024-01-13T00:00:00.000",
+        "requests": "7487"
+      },
+      {
+        "day": "2024-01-14T00:00:00.000",
+        "requests": "8108"
+      },
+      {
+        "day": "2024-01-15T00:00:00.000",
+        "requests": "9178"
+      },
+      {
+        "day": "2024-01-16T00:00:00.000",
+        "requests": "9652"
+      },
+      {
+        "day": "2024-01-17T00:00:00.000",
+        "requests": "11684"
+      },
+      {
+        "day": "2024-01-18T00:00:00.000",
+        "requests": "12554"
+      },
+      {
+        "day": "2024-01-19T00:00:00.000",
+        "requests": "9362"
+      },
+      {
+        "day": "2024-01-20T00:00:00.000",
+        "requests": "8186"
+      },
+      {
+        "day": "2024-01-21T00:00:00.000",
+        "requests": "8748"
+      },
+      {
+        "day": "2024-01-22T00:00:00.000",
+        "requests": "10429"
+      },
+      {
+        "day": "2024-01-23T00:00:00.000",
+        "requests": "9706"
+      },
+      {
+        "day": "2024-01-24T00:00:00.000",
+        "requests": "9092"
+      },
+      {
+        "day": "2024-01-25T00:00:00.000",
+        "requests": "9605"
+      },
+      {
+        "day": "2024-01-26T00:00:00.000",
+        "requests": "9281"
+      },
+      {
+        "day": "2024-01-27T00:00:00.000",
+        "requests": "8047"
+      },
+      {
+        "day": "2024-01-28T00:00:00.000",
+        "requests": "7330"
+      },
+      {
+        "day": "2024-01-29T00:00:00.000",
+        "requests": "9833"
+      },
+      {
+        "day": "2024-01-30T00:00:00.000",
+        "requests": "9934"
+      },
+      {
+        "day": "2024-01-31T00:00:00.000",
+        "requests": "9440"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "reference": "raw CSV with independent stdlib csv/datetime/zoneinfo/collections/statistics code; no Pandas cleaning functions",
+  "raw_rows_checked": 287186,
+  "accepted_requests_checked": 287186,
+  "filter_views_checked": 105,
+  "scalar_metric_comparisons": 38284,
+  "distribution_count_comparisons": 8105,
+  "outlier_examples_checked": 12,
+  "all_published_agency_borough_problem_channel_metrics_checked": true,
+  "same_problem_comparisons_checked": 3,
+  "sensitivity_views_checked": 3,
+  "source_missingness_whitespace_duplicate_date_and_eligibility_audits_checked": true
+}

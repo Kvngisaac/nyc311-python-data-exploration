@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "method": "fresh complete source ZIP extraction; offline reproduce.py; SHA-256 comparison with original run",
+  "generated_files_compared": 46,
+  "all_generated_results_figures_notebook_and_site_files_identical": true,
+  "cold_dependency_installation": false,
+  "browser_execution": false,
+  "jupyter_kernel_execution": false
+}

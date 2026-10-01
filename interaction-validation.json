@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "agency_borough_views": 105,
+  "empty_views": 7,
+  "nonempty_csv_download_handlers": 98,
+  "all_selected_metrics_tables_and_csv_values_checked": true,
+  "global_scope_tables_stable": true,
+  "reset_and_focus_checked": true,
+  "csv_formula_and_quoting_boundaries_checked": true,
+  "execution": "Node DOM event harness; no browser rendering/native keyboard"
+}

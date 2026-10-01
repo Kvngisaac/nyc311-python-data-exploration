@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "execution_method": "CPython shared-namespace cell runner, not Jupyter kernel",
+  "code_cells_executed": 13,
+  "rich_figure_outputs": 5,
+  "errors": 0
+}
